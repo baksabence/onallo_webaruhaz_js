@@ -1,0 +1,96 @@
+
+
+
+.logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 120px;
+    width: 150px;
+}  
+
+
+
+.navigacio{
+    color: white;
+}
+
+
+.navigacio a{
+    color: rgb(145, 145, 145);
+}
+
+.navigacio a:hover{
+    color: #785dac;
+    transition: 0.5s;
+}
+
+.kereses{
+    background-color: white;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.kereses input{
+    border-style: none;
+}
+
+.kereses button{
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.kereses button:hover{
+    background-color: #45405f;
+    transition: 1.3s;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+    background-color: rgb(145, 145, 145);
+  }
+  
+.footer-container a {
+    color: #f5f6f7;
+    font-weight: bold;
+    
+    &:hover {
+      color: #45405f;
+      transition: 0.7s;
+    }
+}
+  
+.footer-container ul {
+    display: flex;
+    padding: 0;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.fa-facebook:hover{
+    color: #3B5998;
+    transition: 0.7s;
+}
+
+.fa-instagram:hover{
+    color: #c23484;
+    transition: 0.7s;
+}
+
+.fa-youtube:hover{
+    color:  #bb0000;
+    transition: 0.7s;
+}
+
+.copyright {
+    padding: 2px 0;
+    text-align: center;
+    background-color: #f5f6f7;
+}
+
+  
