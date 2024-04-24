@@ -10,7 +10,9 @@
     width: 150px;
 }  
 
-
+.navbar{
+    background-color: rgb(145, 145, 145);
+}
 
 .navigacio{
     color: white;
@@ -18,18 +20,19 @@
 
 
 .navigacio a{
-    color: rgb(145, 145, 145);
+    color: rgb(253, 253, 253);
+    font-weight: bold;
 }
 
 .navigacio a:hover{
-    color: #785dac;
+    color: #45405f;
     transition: 0.5s;
 }
 
 .kereses{
     background-color: white;
     border-style: solid;
-    border-radius: 25px;
+    border-radius: 12px;
 }
 
 .kereses input{
@@ -58,6 +61,7 @@
 .footer-container a {
     color: #f5f6f7;
     font-weight: bold;
+    text-decoration: none;
     
     &:hover {
       color: #45405f;
@@ -90,7 +94,7 @@
 .copyright {
     padding: 2px 0;
     text-align: center;
-    background-color: #f5f6f7;
+    background-color: #f0ecec;
 }
 
   
