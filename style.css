@@ -97,4 +97,49 @@
     background-color: #f0ecec;
 }
 
+
+.card {
+    border: 1px solid;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 15px 15px 15px rgba(255, 0, 179, 0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa; 
+    color: #333; 
+    padding: 15px; 
+    border-bottom: 1px solid #dee2e6; 
+    border-radius: 10px; 
+}
+
+.card-body {
+    padding: 20px; 
+}
+
+.card-body h2{
+    font-size: medium;
+}
+
+.card-title {
+    text-align: justify;
+    font-size: large;
+    font-weight: bolder; 
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+}
   
+
+
