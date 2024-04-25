@@ -9,10 +9,16 @@ from "./htmlOsszeallit.js";
 const kartyaELEM = $(".kartyak")
 const kosarELEM = $(".kosar")
 
-megjelenit(hmtlCardLetrehoz(parfumLISTA), kartyaELEM)
-megjelenit(htmlKosarLetrehoz(parfumLISTA), kosarELEM)
 
+const kosarLISTA = [];
 
+export function init(lista){
+    megjelenit(hmtlCardLetrehoz(parfumLISTA), kartyaELEM)
+    megjelenit(htmlKosarLetrehoz(parfumLISTA), kosarELEM)
+    
+}
+
+init(parfumLISTA)
 
 
 

@@ -8,11 +8,10 @@ export function hmtlCardLetrehoz(lista){
             <div class="card" > 
                 <div class="card-header">
                     <h1 class="card-title">${lista[index].termekNeve}</h1>
+                    <h2 class="card-text">${lista[index].termekTipusa}</h2>
                 </div>
 
                 <div class="card-body">
-                    <h2 class="card-text">${lista[index].termekTipusa}</h2>
-                    <p class="card-text">${lista[index].termekAra}</p>
                     <img class="card-img-top" src="${lista[index].termekKepe}" alt="parfum">
                 </div>
                 <div class="card-footer">

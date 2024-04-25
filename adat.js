@@ -18,7 +18,7 @@ export const parfumLISTA=[
     },
     
     {
-        termekNeve: "YSL Y",
+        termekNeve: "Yves Saint Lauren Y",
         termekTipusa: "Eau de Parfum uraknak",
         termekAra: "47 830Ft",
         termekKepe: "kepek/ysl.webp"

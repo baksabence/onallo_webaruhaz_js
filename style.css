@@ -103,6 +103,13 @@
     border-radius: 10px;
     transition: box-shadow 0.3s ease;
 }
+.card h1{
+    text-align: center;
+}
+
+.card h2{
+    text-align: center;
+}
 
 .card:hover {
     box-shadow: 15px 15px 15px rgba(255, 0, 179, 0.1);
@@ -120,8 +127,12 @@
     padding: 20px; 
 }
 
-.card-body h2{
+.card h2{
     font-size: medium;
+}
+
+.card p{
+    font-weight: lighter;
 }
 
 .card-title {
