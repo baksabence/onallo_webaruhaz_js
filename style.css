@@ -151,6 +151,39 @@
     width: 100%;
     height: auto;
 }
+
+.card button{
+    border: none;
+    font-weight: bold;
+    background-color: rgb(145, 145, 145);
+}
+
+.card button:hover{
+    background-color: rgb(145, 145, 145);
+}
   
+.dropdown{
+    padding: 5px;
+}
+
+.dropdown button{
+    border: none;
+    background-color: rgb(145, 145, 145);
+    border-color: none;
+    font-weight: bold;
+}
+
+.dropdown button:hover{
+    background-color: rgb(145, 145, 145);
+    transition: 0.4s;
+}
 
 
+.dropdown a{
+    font-weight: bold;
+}
+
+.dropdown-menu a:hover{
+    background-color:  rgb(145, 145, 145);
+    transition: 0.6s;
+}

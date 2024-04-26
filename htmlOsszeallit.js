@@ -27,8 +27,8 @@ export function hmtlCardLetrehoz(lista){
 
 export function htmlKosarLetrehoz(lista){
     let txt = "<div class='tabla row'>";
-    txt += "<table class='table table-striped col-lg-4'>";
-    txt += "<h1>Kosár:</h1>";
+    txt += "<table class='table col-lg-4';>";
+    txt += "<h1'>Kosár:</h1>";
     txt +=
         "<thead> <tr> <th> Termék neve: </th> <th> Kiszerelése: </th> <th> Ára: </th> <th> </th> </tr> </thead>";
     txt += "<tbody>";
