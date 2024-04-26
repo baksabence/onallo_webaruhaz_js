@@ -1,5 +1,5 @@
 import { parfumLISTA } from "./adat.js";
-import { kosarbaTesz, torol } from "./fuggveny.js";
+import { kosarbaTesz, torol, szures } from "./fuggveny.js";
 import 
 {   hmtlCardLetrehoz, 
     htmlKosarLetrehoz,
@@ -21,8 +21,9 @@ export function init(parfumLISTA, kosarLISTA){
     megjelenit(htmlKosarLetrehoz(kosarLISTA), kosarELEM);
     kosarEsemeny();
     torolEsemeny();
-}
+    szuresEsemeny();
 
+}
 
 
 function kosarEsemeny(){
@@ -45,6 +46,17 @@ function torolEsemeny(){
         torol(kosarLISTA, id)
         init(parfumLISTA, kosarLISTA)
     })
+}
+
+function szuresEsemeny(){
+    const keresoElem = $(".kereses")
+    keresoElem.on("keyup", function(){
+        let keresoSzoveg = keresoElem.val()
+        const szLista = szures(parfumLISTA, keresoSzoveg)
+        console.log(szLista)
+        init(szLista)
+    })
+
 }
 
 
