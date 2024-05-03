@@ -1,27 +1,27 @@
 
-export function hmtlCardLetrehoz(lista){
-    let txt = `<div class='row'>`
-    for(let index = 0; index < lista.length; index++){
-        txt += 
-        `
-        <div class="col-3 mb-3">
-            <div class="card" > 
-                <div class="card-header">
-                    <h1 class="card-title">${lista[index].termekNeve}</h1>
-                    <h2 class="card-text">${lista[index].termekTipusa}</h2>
-                </div>
+export function hmtlCardLetrehoz(lista) {
+    let txt = `<div class='row'>`;
 
-                <div class="card-body">
-                    <img class="card-img-top" src="${lista[index].termekKepe}" alt="parfum">
-                </div>
-                <div class="card-footer">
-                    <p>Ára: ${lista[index].termekAra}<button id="${index}" class="buttonkosar btn btn-primary" style="float: right;">Kosárba</button></p>
+    for (let index = 0; index < lista.length; index++) {
+        txt += `
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="card-title">${lista[index].termekNeve}</h1>
+                        <h2 class="card-text">${lista[index].termekTipusa}</h2>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-img-top" src="${lista[index].termekKepe}" alt="parfum">
+                    </div>
+                    <div class="card-footer">
+                        <p>Ára: ${lista[index].termekAra}<button id="${index}" class="buttonkosar btn btn-primary" style="float: right;">Kosárba</button></p>
+                    </div>
                 </div>
             </div>
-        </div>
         `;
     }
-    txt += "</div>";
+
+    txt += `</div>`;
     return txt;
 }
 

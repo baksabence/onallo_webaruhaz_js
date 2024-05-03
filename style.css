@@ -46,14 +46,11 @@
 
 .kereses button:hover{
     background-color: #45405f;
-    transition: 1.3s;
+    transition: 0.7s;
 }
 
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 16px;
     background-color: rgb(145, 145, 145);
   }
@@ -70,7 +67,6 @@
 }
   
 .footer-container ul {
-    display: flex;
     padding: 0;
     gap: 24px;
     list-style-type: none;
@@ -120,7 +116,7 @@
     color: #333; 
     padding: 15px; 
     border-bottom: 1px solid #dee2e6; 
-    border-radius: 10px; 
+    border-radius: 10px 10px 0 0; 
 }
 
 .card-body {
