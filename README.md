@@ -23,6 +23,7 @@ A kiemelt termék mellett megjelenik egy bal és egy jobb léptető gomb, amivel
 ## Függvények:
 
 htmlCardOsszeallit(termekekLista)-> visszatérési értéke : txt
+
 htmlKosarOsszeallit(kosarLista)
 megjelenit(txt, divElem)
 
