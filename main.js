@@ -1,5 +1,5 @@
 import { parfumLISTA } from "./adat.js";
-import { kosarbaTesz, torol, szures, rendez } from "./fuggveny.js";
+import { kosarbaTesz, torol, szures, rendez, rendezArSzerint } from "./fuggveny.js";
 import 
 {   hmtlCardLetrehoz, 
     htmlKosarLetrehoz,
@@ -20,6 +20,7 @@ init(parfumLISTA, kosarLISTA)
 
 rendezEsemeny();
 szuresEsemeny();
+rendezEsArSzerint();
 
 export function init(pLISTA, kLISTA){
     megjelenit(hmtlCardLetrehoz(pLISTA), kartyaELEM);
@@ -89,5 +90,23 @@ function rendezEsemeny(){
 
 })
 
+}
+
+function rendezEsArSzerint(){
+    const rendNov = $(".arNov");
+    const rendCsok = $(".arCsok");
+
+    let rLista = [];
+    rendNov.on("click", function(){
+        rLista = rendezArSzerint(parfumLISTA, 1)
+        console.log(rLista)
+        init(rLista, kosarLISTA)
+    })
+
+    rendCsok.on("click", function(){
+        rLista = rendezArSzerint(parfumLISTA, -1)
+        console.log(rLista)
+        init(rLista, kosarLISTA)
+    })
 }
 

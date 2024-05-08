@@ -5,7 +5,7 @@ export function hmtlCardLetrehoz(lista) {
     for (let index = 0; index < lista.length; index++) {
         txt += `
             <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                <div class="card">
+                <div class="card" style="height: 100%;">
                     <div class="card-header">
                         <h1 class="card-title">${lista[index].termekNeve}</h1>
                         <h2 class="card-text">${lista[index].termekTipusa}</h2>

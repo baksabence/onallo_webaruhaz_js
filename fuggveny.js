@@ -30,3 +30,16 @@ export function rendez(lista, irany){
     });
     return lista
 }
+
+export function rendezArSzerint(lista, irany){
+    lista.sort(function(r1, r2){
+       let eredmeny = 1;
+       if(r1.termekAra < r2.termekAra){
+           eredmeny = -1
+
+       }
+
+        return eredmeny * irany;
+    });
+    return lista
+}
