@@ -39,7 +39,7 @@ kosarbaTesz(lista1, lista2, id) -> Az eleinte üres kosár listának a végéhez
 torol(lista, id) -> A kosarLista adott elemét "vágja le", visszatérési értéke lista. Gombnyomás hatására fut le.
 
 
-### RENDEZES KATEGORIAK SZERINT:
+### Rendezés kategóriák szerint:
 szures(lista, keresoSzoveg) -> Létrehozza a szurtLista-t.A kereses class megfogásával és egy eseménykezelő segítségével vizsgáljuk a beírt szöveget a termék neve alapján. Visszatérési értéke: szurtLista, parfum.termekNeve.toUpperCase().includes(keresoSzoveg.toUpperCase())
 
 rendez(lista, irany) -> a termékek neveit vizsgáljuk abc sorrend szerint. Az eseményt gombnyomás váltja ki, aminek hatására adott paraméter alapján fut le.
