@@ -22,27 +22,27 @@ A kiemelt termék mellett megjelenik egy bal és egy jobb léptető gomb, amivel
 
 ## Függvények:
 
-htmlCardOsszeallit(termekekLista)-> visszatérési értéke : txt
+htmlCardOsszeallit(termekekLista) -> visszatérési értéke : txt, összeállítja a cardokat.
 
-htmlKosarOsszeallit(kosarLista)
+htmlKosarOsszeallit(kosarLista) -> visszatérési értéke : txt, összeállítja a kosár táblázatot, saját divben, a megadott elemekkel.
 
-megjelenit(txt, divElem)
-
-## adatszerkezetek:
-
-termekekLista=[]
-kosarLista=[]
+megjelenit(txt, divElem) -> megjeleníti a megfogott txt értékét, a korábban elkészített függvények szerint. 
 
 
-kosarListabolTorol(index)
-kosarListaElemModosit(index)
+parfumLISTA = [ termekek ] -> létrehozza az adott termékeket, amiket különböző- egyedi adatokkal lát el.  
+
+kosarLista = [ kosarba helyezett termekek ] -> egy üres listát hoz létre, mely később kerül majd feltöltésre.
 
 
-RENDEZES KATEGORIAK SZERINT:
-	rendezesArSzerint()
-		rendezesSTBSzerint()
-		
-kepLepteto(index)
+kosarbaTesz(lista1, lista2, id) -> Az eleinte üres kosár listának a végéhez adja hozzá az adott id-val rendelkező elemet, gombnyomás hatására fut le.
+
+torol(lista, id) -> A kosarLista adott elemét "vágja le", visszatérési értéke lista. Gombnyomás hatására fut le.
+
+
+### RENDEZES KATEGORIAK SZERINT:
+szures(lista, keresoSzoveg) -> Létrehozza a szurtLista-t.A kereses class megfogásával és egy eseménykezelő segítségével vizsgáljuk a beírt szöveget a termék neve alapján. Visszatérési értéke: szurtLista, parfum.termekNeve.toUpperCase().includes(keresoSzoveg.toUpperCase())
+
+rendez(lista, irany) -> a termékek neveit vizsgáljuk abc sorrend szerint. Az eseményt gombnyomás váltja ki, aminek hatására adott paraméter alapján fut le.
 
 
 ### Készítette: Baksa Bence
