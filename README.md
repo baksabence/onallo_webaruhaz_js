@@ -28,7 +28,7 @@ htmlKosarOsszeallit(kosarLista)
 
 megjelenit(txt, divElem)
 
-# adatszerkezetek:
+## adatszerkezetek:
 
 termekekLista=[]
 kosarLista=[]
