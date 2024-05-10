@@ -30,6 +30,10 @@ export function init(pLISTA, kLISTA){
 
 }
 
+function kosarInit(){
+    
+}
+
 
 function kosarEsemeny(){
     const kosarGOMB = $(".buttonkosar")
